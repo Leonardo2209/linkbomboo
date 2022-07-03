@@ -1,0 +1,885 @@
+body{
+	background:#EEEEEE;
+	font-family: Inter, sans-serif;
+}
+
+#fundocentral{
+  margin: 0 auto;
+  width: 70%;
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2), 0 1.5px 5px 0 rgba(0,0,0,0.19);
+}
+
+#foto{
+	display: inline-block;
+	margin: 0 auto;
+}
+
+#titulo{
+	font-size:36px;
+	font-family:Inter medium, sans-serif;
+	display: inline-block;
+	width:80%;
+	margin: 0 auto;
+	vertical-align: top;
+	
+}
+
+
+#topo{
+	font-size:38px;
+	font-family:Inter medium, sans-serif;
+}
+
+#topo2{
+	color:#838383;
+	font-family:Inter medium, sans-serif;
+	font-size:28px;
+}
+
+#imagem{
+	display:inline-block;
+}
+
+.banner{
+	width:150px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#valor{
+	font-size: 20px;
+	font-family:Inter medium, sans-serif;
+	padding-top:35px;
+}
+
+#blocoaereo{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	border-radius: 8px;
+	padding:10px;
+	width:30.5%;
+	display:inline-block;
+}
+
+#blocohotel{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	border-radius: 8px;
+	padding:10px;
+	width:30.5%;
+	display:inline-block;
+	vertical-align: top;
+}
+
+#blocoingresso{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+	border-radius: 8px;
+	padding:10px;
+	width:30.5%;
+	display:inline-block;
+	vertical-align: top;
+}
+
+input{
+	font-family: Inter, sans-serif;
+	font-size: 16px;
+	padding:12px;
+	border-radius: 6px;
+	border-color:black;
+	border-width:0px; 
+	box-sizing: border-box;
+    border: 1.5px solid #e6e6e6;
+    -webkit-transition: 4.5s;
+    transition: 0.5s;
+    outline: none;
+	width:100%;
+}
+
+.passageiro1{
+	background-color:#EEEEEE;
+	padding:20px;
+	border-radius:8px;
+}
+
+#aviaobloco{
+	width:35px;
+}
+
+.titulo{
+	font-size:22px;
+}
+
+h2{
+	font-size:18px;
+	margin:0 auto;
+}
+
+h5{
+	color:#838383;
+	font-size: 15px;
+	margin:0 auto;
+	font-family:Inter ExtraLight, sans-serif;
+}
+
+h6{
+	color:#838383;
+	font-size: 15px;
+	margin:0 auto;
+	font-family:Inter SemiBold, sans-serif;
+}
+
+h4{
+	color: black;
+	font-size: 15px;
+	margin:0 auto;
+	font-family:Inter ExtraBold, sans-serif;
+}
+
+h3{
+	font-size: 15px;
+	margin:0 auto;
+	font-family:Inter Light, sans-serif;
+}
+
+h1{
+	font-size: 20px;
+	margin:0 auto;
+	font-family:Inter medium, sans-serif;
+}
+
+#cia{
+	width:130px;
+	margin:15px 0;
+}
+
+input[type=submit]{
+	background:#18bd5b;
+	color: white;
+	padding:15px;
+	width:250px;
+	cursor:pointer;
+}
+
+select{
+	font-family: Inter, sans-serif;
+	font-size: 16px;
+	padding:12px;
+	border-radius: 6px;
+	border-color:black;
+	border-width:0px; 
+	box-sizing: border-box;
+    border: 1.5px solid #e6e6e6;
+    -webkit-transition: 4.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+.datacpfrg{
+	display:inline-block;
+	
+}
+
+.mesanocodigo{
+	display:inline-block;
+	}
+
+#ano{
+	width:110%;
+}
+
+.nomeimpresso{
+	width:50%;
+	display:inline-block;
+}
+
+.numerocartao{
+	width:45%;
+	display:inline-block;
+}
+
+.codigoseguranca{
+	width:22%;
+	display:inline-block;	
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+.cartao{
+	width:40px;
+	box-shadow: 0 1px 2px 0 rgba(0,0,0,0.2), 0 1.5px 5px 0 rgba(0,0,0,0.19);
+}
+
+.rodape{
+	color:#838383;
+	font-size: 14px;
+	margin:20px 0;
+	font-family:Inter ExtraLight, sans-serif;
+}
+
+
+/** 1275 **/
+@media screen and (max-width: 1275px){
+	#fundocentral{
+	width: 80%;
+	}
+
+
+/** 1119 **/
+@media screen and (max-width: 1119px){
+	#fundocentral{
+	width: 85%;
+	}
+
+}
+
+/** 1053 **/
+@media screen and (max-width: 1053px){
+	#fundocentral{
+	padding:25px;
+	width: 90%;
+	}
+
+}
+}
+
+/** 998 **/
+@media screen and (max-width: 998px){
+	#blocoaereo{
+	margin-bottom:20px;
+	width:auto;
+	padding-right:10px;
+	display:block;
+}
+
+#blocohotel{
+	padding:10px;
+	margin-bottom:20px;
+	width:auto;
+	display:block;
+}
+
+#blocoingresso{
+	padding:10px;
+	width:auto;
+	display:block;
+}
+
+
+
+}
+
+/** 869 **/
+@media screen and (max-width: 869px){
+
+#titulo{
+		width:70%;
+	}
+
+#topo{
+	font-size:32px;
+}
+
+#topo2{
+	font-size:22px;
+}
+
+.banner{
+	width:140px;
+}
+
+#valor{
+	font-size: 20px;
+}
+
+}
+
+/** 715 **/
+@media screen and (max-width: 715px){
+
+.nomecompleto {
+}
+
+.datacpfrg select{
+	display:block;
+	margin-bottom:-40px;
+	
+}
+
+.datacpfrg{
+	display:block;
+	margin-bottom:20px;
+}
+
+
+select{
+	width:100%;
+}
+
+.mesanocodigo{
+	padding-top:20px;
+	
+	}
+
+#ano{
+	width:100%;
+}
+
+
+.nomeimpresso{
+	display:block;
+	width:100%;
+}
+
+.numerocartao{
+	display:block;
+	width:100%;
+	margin-bottom:-20px;
+}
+
+.codigoseguranca{
+	display:block;
+	width:100%;	
+}
+
+}
+
+/** 685 **/
+@media screen and (max-width: 685px){
+
+#titulo{
+		width:70%;
+	}
+
+#topo{
+	font-size:30px;
+}
+
+#topo2{
+	font-size:21px;
+}
+
+.banner{
+	width:135px;
+}
+
+#valor{
+	font-size: 19px;
+}
+
+}
+
+/** 644 **/
+@media screen and (max-width: 644px){
+
+#titulo{
+		width:70%;
+	}
+
+#topo{
+	font-size:28px;
+}
+
+#topo2{
+	font-size:18px;
+}
+
+.banner{
+	width:130px;
+}
+
+#valor{
+	font-size: 16px;
+}
+
+}
+
+/** 601 **/
+@media screen and (max-width: 601px){
+
+
+#topo{
+	font-size:26px;
+}
+
+#topo2{
+	font-size:17px;
+}
+
+.banner{
+	width:125px;
+}
+
+#valor{
+	font-size: 15px;
+}
+
+}
+
+/** 569 **/
+@media screen and (max-width: 569px){
+
+
+#topo{
+	font-size:24px;
+}
+
+#topo2{
+	font-size:16px;
+}
+
+.banner{
+	width:120px;
+}
+
+#valor{
+	font-size: 14px;
+}
+
+}
+
+/** 518 **/
+@media screen and (max-width: 518px){
+
+
+#topo{
+	font-size:22px;
+}
+
+#topo2{
+	font-size:15px;
+}
+
+.banner{
+	width:110px;
+}
+
+#valor{
+	font-size: 13px;
+}
+
+}
+
+/** 476 **/
+@media screen and (max-width: 476px){
+
+
+#topo{
+	font-size:20px;
+}
+
+#topo2{
+	font-size:14px;
+}
+
+.banner{
+	width:100px;
+}
+
+#valor{
+	font-size: 12px;
+}
+
+
+h1{
+	font-size: 16px;
+	margin:0 auto;
+	font-family:Inter medium, sans-serif;
+}
+
+}
+
+/** 434 **/
+@media screen and (max-width: 434px){
+
+
+#topo{
+	font-size:19px;
+}
+
+#topo2{
+	font-size:13px;
+}
+
+.banner{
+	width:90px;
+}
+
+#valor{
+	font-size: 11px;
+}
+
+}
+
+/** 423 **/
+@media screen and (max-width: 423px){
+
+input{
+	font-size:15px;
+	
+}
+
+.datacpfrg{
+	font-size:15px;
+}
+
+.mesanocodigo{
+	padding-top:20px;
+	font-size:15px;
+	}
+
+#ano{
+	width:100%;
+}
+
+.nomecompleto{
+	display:block;
+	width:100%;
+	font-size:15px;
+}
+
+.parcelar{
+	display:block;
+	width:100%;
+	font-size:15px;
+}
+
+.nomeimpresso{
+	display:block;
+	width:100%;
+	font-size:15px;
+}
+
+.numerocartao{
+	display:block;
+	width:100%;
+	margin-bottom:-20px;
+	font-size:15px;
+}
+
+.codigoseguranca{
+	width:;
+	display:block;
+	width:100%;	
+	font-size:15px;
+}
+
+select{
+	font-size:15px;
+}
+
+.rodape{
+	font-size: 13px;
+}
+
+}
+
+/** 412 **/
+@media screen and (max-width: 412px){
+#fundocentral{
+	padding:20px;
+	}
+
+#topo{
+	font-size:18px;
+}
+
+#topo2{
+	font-size:12px;
+}
+
+.banner{
+	width:85px;
+}
+
+#valor{
+	font-size: 10px;
+}
+
+}
+
+/** 392 **/
+@media screen and (max-width: 392px){
+#fundocentral{
+	padding:15px;
+	}
+
+#topo{
+	font-size:16px;
+}
+
+#topo2{
+	font-size:11px;
+}
+
+.banner{
+	width:82px;
+}
+
+#valor{
+	font-size: 10px;
+}
+
+#aviaobloco{
+	width:25px;
+}
+
+.titulo{
+	font-size:20px;
+}
+
+h2{
+	font-size:16px;
+	margin:0 auto;
+}
+
+h5{
+	color:#838383;
+	font-size: 13px;
+	margin:0 auto;
+	font-family:Inter ExtraLight, sans-serif;
+}
+
+h6{
+	color:#838383;
+	font-size: 13px;
+	margin:0 auto;
+	font-family:Inter SemiBold, sans-serif;
+}
+
+h4{
+	color: black;
+	font-size: 13px;
+	margin:0 auto;
+	font-family:Inter ExtraBold, sans-serif;
+}
+
+h3{
+	font-size: 13px;
+	margin:0 auto;
+	font-family:Inter Light, sans-serif;
+}
+
+
+#cia{
+	width:100px;
+	margin:15px 0;
+}
+
+.rodape{
+	font-size: 12px;
+}
+
+}
+
+/** 361 **/
+@media screen and (max-width: 361px){
+input{
+	font-size:14px;
+	
+}
+
+.datacpfrg{
+	font-size:14px;
+}
+
+.mesanocodigo{
+	padding-top:20px;
+	font-size:14px;
+	}
+
+#ano{
+	width:100%;
+}
+
+.nomecompleto{
+	display:block;
+	width:100%;
+	font-size:14px;
+}
+
+.parcelar{
+	display:block;
+	width:100%;
+	font-size:14px;
+}
+
+.nomeimpresso{
+	display:block;
+	width:100%;
+	font-size:14px;
+}
+
+.numerocartao{
+	display:block;
+	width:100%;
+	margin-bottom:-20px;
+	font-size:14px;
+}
+
+.codigoseguranca{
+	width:;
+	display:block;
+	width:100%;	
+	font-size:14px;
+}
+
+select{
+	font-size:14px;
+}
+
+}
+
+/** 351 **/
+@media screen and (max-width: 351px){
+
+#topo{
+	font-size:14px;
+}
+
+#topo2{
+	font-size:10px;
+}
+
+.banner{
+	width:75px;
+}
+
+#valor{
+	font-size: 9px;
+}
+
+#aviaobloco{
+	width:20px;
+}
+
+.titulo{
+	font-size:18px;
+}
+
+h2{
+	font-size:14px;
+	margin:0 auto;
+}
+
+h5{
+	color:#838383;
+	font-size: 12px;
+	margin:0 auto;
+	font-family:Inter ExtraLight, sans-serif;
+}
+
+h6{
+	color:#838383;
+	font-size: 12px;
+	margin:0 auto;
+	font-family:Inter SemiBold, sans-serif;
+}
+
+h4{
+	color: black;
+	font-size: 12px;
+	margin:0 auto;
+	font-family:Inter ExtraBold, sans-serif;
+}
+
+h3{
+	font-size: 12px;
+	margin:0 auto;
+	font-family:Inter Light, sans-serif;
+}
+
+h1{
+	font-size: 14px;
+	margin:0 auto;
+	font-family:Inter medium, sans-serif;
+}
+
+#cia{
+	width:80px;
+	margin:15px 0;
+}
+
+.rodape{
+	font-size: 11px;
+}
+
+}
+
+/** 335 **/
+@media screen and (max-width: 335px){
+	
+.mesanocodigo {
+	display:block;
+}
+
+}
+/** 308 **/
+@media screen and (max-width: 308px){
+	
+	#titulo{
+		width:67%;
+	}
+
+
+
+#topo{
+	font-size:12px;
+}
+
+#topo2{
+	font-size:10px;
+}
+
+.banner{
+	width:70px;
+}
+
+#valor{
+	font-size: 9px;
+	padding-top: 30px;
+}
+
+}
+
+/** 277 **/
+@media screen and (max-width: 277px){
+	
+	#titulo{
+		width:65%;
+	}
+
+
+
+#topo{
+	font-size:11px;
+}
+
+#topo2{
+	font-size:8px;
+}
+
+.banner{
+	width:65px;
+}
+
+#valor{
+	font-size: 8px;
+	padding-top: 30px;
+}
+
+}
