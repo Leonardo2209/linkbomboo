@@ -237,7 +237,7 @@ input[type=number] {
 	#fundocentral{
 	width: 80%;
 	}
-
+}
 
 /** 1119 **/
 @media screen and (max-width: 1119px){
@@ -255,7 +255,7 @@ input[type=number] {
 	}
 
 }
-}
+
 
 /** 998 **/
 @media screen and (max-width: 998px){
@@ -395,7 +395,7 @@ select{
 }
 
 #topo2{
-	font-size:18px;
+	font-size:19px;
 }
 
 .banner{
@@ -403,7 +403,7 @@ select{
 }
 
 #valor{
-	font-size: 16px;
+	font-size: 17px;
 }
 
 }
@@ -425,7 +425,7 @@ select{
 }
 
 #valor{
-	font-size: 15px;
+	font-size: 16px;
 }
 
 }
@@ -447,7 +447,7 @@ select{
 }
 
 #valor{
-	font-size: 14px;
+	font-size: 15px;
 }
 
 }
@@ -469,7 +469,7 @@ select{
 }
 
 #valor{
-	font-size: 13px;
+	font-size: 14px;
 }
 
 }
@@ -491,7 +491,7 @@ select{
 }
 
 #valor{
-	font-size: 12px;
+	font-size: 14px;
 }
 
 
@@ -512,7 +512,7 @@ h1{
 }
 
 #topo2{
-	font-size:13px;
+	font-size:14px;
 }
 
 .banner{
@@ -520,7 +520,7 @@ h1{
 }
 
 #valor{
-	font-size: 11px;
+	font-size: 13px;
 }
 
 }
@@ -599,15 +599,15 @@ select{
 }
 
 #topo2{
-	font-size:12px;
+	font-size:14px;
 }
 
 .banner{
-	width:85px;
+	width:89px;
 }
 
 #valor{
-	font-size: 10px;
+	font-size: 13px;
 }
 
 }
@@ -623,15 +623,15 @@ select{
 }
 
 #topo2{
-	font-size:11px;
+	font-size:13px;
 }
 
 .banner{
-	width:82px;
+	width:85px;
 }
 
 #valor{
-	font-size: 10px;
+	font-size: 12px;
 }
 
 #aviaobloco{
@@ -747,20 +747,24 @@ select{
 /** 351 **/
 @media screen and (max-width: 351px){
 
+#titulo{
+		width:65%;
+	}
+
 #topo{
-	font-size:14px;
+	font-size:13px;
 }
 
 #topo2{
-	font-size:10px;
+	font-size:10.5px;
 }
 
 .banner{
-	width:75px;
+	width:77px;
 }
 
 #valor{
-	font-size: 9px;
+	font-size: 10px;
 }
 
 #aviaobloco{
@@ -835,8 +839,6 @@ h1{
 		width:67%;
 	}
 
-
-
 #topo{
 	font-size:12px;
 }
@@ -860,7 +862,7 @@ h1{
 @media screen and (max-width: 277px){
 	
 	#titulo{
-		width:65%;
+		width:67%;
 	}
 
 
@@ -870,7 +872,7 @@ h1{
 }
 
 #topo2{
-	font-size:8px;
+	font-size:8.5px;
 }
 
 .banner{
@@ -878,7 +880,7 @@ h1{
 }
 
 #valor{
-	font-size: 8px;
+	font-size: 8.5px;
 	padding-top: 30px;
 }
 
